@@ -11,6 +11,7 @@ export default function (eleventyConfig) {
       input: "posts",
       output: "dist",
       includes: "_includes"
-    }
+    },
+    pathPrefix: "/Diary/"
   };
 }
