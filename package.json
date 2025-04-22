@@ -1,0 +1,20 @@
+{
+  "name": "diary",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bunx eleventy",
+    "serve": "bunx eleventy --serve"
+  },
+  "dependencies": {
+    "eleventy-plugin-mathjax": "^2.0.4"
+  }
+}
