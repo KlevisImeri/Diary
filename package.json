@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "bunx eleventy",
-    "serve": "bunx eleventy --serve"
+    "serve": "bunx eleventy --serve",
+    "deploy": "bunx eleventy && git add . && git commit -m \"deploy\" && git push"
   },
   "dependencies": {
     "eleventy-plugin-mathjax": "^2.0.4"
